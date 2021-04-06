@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     :type => 'MIT',
     :file => 'LICENSE' 
   }
-  spec.homepage     = 'https://github.com/krotoff/RLogger'
+  spec.homepage     = 'https://github.com/RahulMaithani/RLogger'
   spec.source       = { 
     :git => 'https://github.com/RahulMaithani/RLogger.git', 
     :branch => 'master',
