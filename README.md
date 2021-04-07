@@ -8,7 +8,7 @@ First, install RLogger via [CocoaPods](https://cocoapods.org/), [Carthage](htt
 
 ## CocoaPods
 
-```
+```swift
 platform :ios, ’13.0’
 
 target 'SampleProject' do
@@ -31,7 +31,7 @@ github "RahulMaithani/RLogger" ~> 0.2.0
 
 Usually, you can simply import RLogger.
 
-```
+```swift
 import RLogger
 let log = RLogger.self
 ```
