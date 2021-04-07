@@ -36,6 +36,21 @@ import RLogger
 let log = RLogger.self
 ```
 
+You can use different method according to your requirement.
+
+```swift
+log.verbose("something on verbose") 
+
+log.debug("something on debug") 
+
+log.info("something on info")   
+
+log.warning("something on lwarning")  
+
+log.error("something on error")  
+
+```
+
 ## Requirements
 The current version of RLogger requires:
 * Xcode 12 or later
